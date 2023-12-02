@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
+:root {
+    --font-family:'Philosopher', sans-serif;
+    --bg-color: #0F2C59 ;
+    --primary-color: #DAC0A3;
+}
+
+body {
+    background: url('https://th.bing.com/th/id/OIP.5VAmZsN6khkC2Vz2_faCIwHaE8?w=1254&h=836&rs=1&pid=ImgDetMain');
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);   
+}
+
+section {
+  background-color: #000000;
+  border: 0.5rem outset #F4DFC8;
+  outline: 0.5rem solid #F4EAE0;
+  box-shadow: 0 0 0 2rem #000000;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem; 
+}
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h2, h3, button {
+    background-color: #000000;
+    border: 0.5rem outset #F4DFC8;
+    outline: 0.5rem solid #F4EAE0;
+    box-shadow: 0 0 0 2rem #000000;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;  
+}
+
+
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    background-color: #000000;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
